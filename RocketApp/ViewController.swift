@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         let url = URL(string: "https://api.spacexdata.com/v4/rockets")!
 
         var request = URLRequest(url: url)
@@ -33,9 +32,6 @@ class ViewController: UIViewController {
 
         task.resume()
         
-        
     }
-
-
 }
 
