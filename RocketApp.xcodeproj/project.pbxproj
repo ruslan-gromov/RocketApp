@@ -39,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		705311D329B9DC05004128AE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				70F59C3329B4C84D0090F414 /* GetRemoteDataController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		70F59C1329B4C7D20090F414 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +66,7 @@
 		70F59C1E29B4C7D20090F414 /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
+				705311D329B9DC05004128AE /* Helpers */,
 				70F59C1F29B4C7D20090F414 /* AppDelegate.swift */,
 				70F59C2129B4C7D20090F414 /* SceneDelegate.swift */,
 				70F59C2329B4C7D20090F414 /* ViewController.swift */,
@@ -65,7 +74,6 @@
 				70F59C2829B4C7D30090F414 /* Assets.xcassets */,
 				70F59C2A29B4C7D30090F414 /* LaunchScreen.storyboard */,
 				70F59C2D29B4C7D30090F414 /* Info.plist */,
-				70F59C3329B4C84D0090F414 /* GetRemoteDataController.swift */,
 			);
 			path = RocketApp;
 			sourceTree = "<group>";
