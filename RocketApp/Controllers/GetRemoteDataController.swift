@@ -39,8 +39,15 @@ class Rocket: Decodable {
                 print("HTTP Request Failed \(error)")
             }
         }
+
         task.resume()
+
+        return result
+
     }
+    
+    
+    
     
 }
 
