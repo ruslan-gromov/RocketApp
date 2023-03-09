@@ -92,14 +92,6 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		705311DB29B9E0DF004128AE /* Supporting files */ = {
-			isa = PBXGroup;
-			children = (
-				70F59C2D29B4C7D30090F414 /* Info.plist */,
-			);
-			path = "Supporting files";
-			sourceTree = "<group>";
-		};
 		70F59C1329B4C7D20090F414 = {
 			isa = PBXGroup;
 			children = (
@@ -119,11 +111,11 @@
 		70F59C1E29B4C7D20090F414 /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
+				70F59C2D29B4C7D30090F414 /* Info.plist */,
 				705311D929B9E056004128AE /* AppDelegate */,
 				705311D329B9DC05004128AE /* Controllers */,
 				705311D429B9DE86004128AE /* Models */,
 				705311D829B9E02C004128AE /* Resources */,
-				705311DB29B9E0DF004128AE /* Supporting files */,
 				705311D729B9E004004128AE /* Views */,
 			);
 			path = RocketApp;
