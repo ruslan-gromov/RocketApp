@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705311D629B9DE9C004128AE /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705311D529B9DE9C004128AE /* Rocket.swift */; };
 		70F59C2029B4C7D20090F414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C1F29B4C7D20090F414 /* AppDelegate.swift */; };
 		70F59C2229B4C7D20090F414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C2129B4C7D20090F414 /* SceneDelegate.swift */; };
 		70F59C2429B4C7D20090F414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C2329B4C7D20090F414 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		705311D529B9DE9C004128AE /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 		70F59C1C29B4C7D20090F414 /* RocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F59C1F29B4C7D20090F414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F59C2129B4C7D20090F414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +41,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		705311D329B9DC05004128AE /* Helpers */ = {
+		705311D329B9DC05004128AE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				70F59C3329B4C84D0090F414 /* GetRemoteDataController.swift */,
 			);
-			path = Helpers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		705311D429B9DE86004128AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				705311D529B9DE9C004128AE /* Rocket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		705311D729B9E004004128AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				705311DA29B9E0A7004128AE /* Storyboards */,
+				70F59C2129B4C7D20090F414 /* SceneDelegate.swift */,
+				70F59C2329B4C7D20090F414 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		705311D829B9E02C004128AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70F59C2829B4C7D30090F414 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		705311D929B9E056004128AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				70F59C1F29B4C7D20090F414 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		705311DA29B9E0A7004128AE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				70F59C2529B4C7D20090F414 /* Main.storyboard */,
+				70F59C2A29B4C7D30090F414 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		705311DB29B9E0DF004128AE /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				70F59C2D29B4C7D30090F414 /* Info.plist */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 		70F59C1329B4C7D20090F414 = {
@@ -66,14 +119,12 @@
 		70F59C1E29B4C7D20090F414 /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
-				705311D329B9DC05004128AE /* Helpers */,
-				70F59C1F29B4C7D20090F414 /* AppDelegate.swift */,
-				70F59C2129B4C7D20090F414 /* SceneDelegate.swift */,
-				70F59C2329B4C7D20090F414 /* ViewController.swift */,
-				70F59C2529B4C7D20090F414 /* Main.storyboard */,
-				70F59C2829B4C7D30090F414 /* Assets.xcassets */,
-				70F59C2A29B4C7D30090F414 /* LaunchScreen.storyboard */,
-				70F59C2D29B4C7D30090F414 /* Info.plist */,
+				705311D929B9E056004128AE /* AppDelegate */,
+				705311D329B9DC05004128AE /* Controllers */,
+				705311D429B9DE86004128AE /* Models */,
+				705311D829B9E02C004128AE /* Resources */,
+				705311DB29B9E0DF004128AE /* Supporting files */,
+				705311D729B9E004004128AE /* Views */,
 			);
 			path = RocketApp;
 			sourceTree = "<group>";
@@ -152,6 +203,7 @@
 				70F59C2429B4C7D20090F414 /* ViewController.swift in Sources */,
 				70F59C2029B4C7D20090F414 /* AppDelegate.swift in Sources */,
 				70F59C3429B4C84D0090F414 /* GetRemoteDataController.swift in Sources */,
+				705311D629B9DE9C004128AE /* Rocket.swift in Sources */,
 				70F59C2229B4C7D20090F414 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
