@@ -42,8 +42,6 @@ class Rocket: Decodable {
 
         task.resume()
 
-//        return result
-
     }
     
     
