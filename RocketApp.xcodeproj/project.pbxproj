@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		705311D629B9DE9C004128AE /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705311D529B9DE9C004128AE /* Rocket.swift */; };
+		705EB20229BF62A8007C081C /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705EB20129BF62A8007C081C /* Launch.swift */; };
 		70F59C2029B4C7D20090F414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C1F29B4C7D20090F414 /* AppDelegate.swift */; };
 		70F59C2229B4C7D20090F414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C2129B4C7D20090F414 /* SceneDelegate.swift */; };
 		70F59C2429B4C7D20090F414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F59C2329B4C7D20090F414 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		705311D529B9DE9C004128AE /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		705EB20129BF62A8007C081C /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		70F59C1C29B4C7D20090F414 /* RocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F59C1F29B4C7D20090F414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F59C2129B4C7D20090F414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				705311D529B9DE9C004128AE /* Rocket.swift */,
+				705EB20129BF62A8007C081C /* Launch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				70F59C2029B4C7D20090F414 /* AppDelegate.swift in Sources */,
 				70F59C3429B4C84D0090F414 /* GetRemoteDataController.swift in Sources */,
 				705311D629B9DE9C004128AE /* Rocket.swift in Sources */,
+				705EB20229BF62A8007C081C /* Launch.swift in Sources */,
 				70F59C2229B4C7D20090F414 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
